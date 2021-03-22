@@ -21,6 +21,7 @@
 #include <stdint.h>
 
 #include "stub/TSIP_Driver.h"
+#include "proc/TSIP_Procedure.h"
 #include "common/TSIP_Common_Define.h"
 
 #if defined(_TSIP_SB)

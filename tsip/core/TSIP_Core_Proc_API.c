@@ -27,10 +27,6 @@
 #include "proc/TSIP_Procedure.h"
 #include "stub/TSIP_Stub_API.h"
 
-extern uint32_t *S_HEAP;
-
-extern uint32_t *S_INST;
-
 static unsigned char OutPut_S_INST[1296U];
 
 /*! @var TSIP_Core_Share_InData_IV
