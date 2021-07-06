@@ -3,7 +3,7 @@
 <Div Align="right">
 Renesas Electronics Corporation
 
-Mar-31-2021
+Jul-06-2021
 </Div>
 
 The RZ/G Security Module is sample software for Renesas RZ/G2 Group MPUs.
@@ -149,7 +149,7 @@ Get the source code of RZ/G Security Module.
 cd ~/
 git clone https://github.com/renesas-rz/rzg_security-module.git
 cd rzg_security-module
-git checkout -b v1.00
+git checkout -b v1.01
 ```
 
 ### 4.4. Build the RZ/G Security Module
@@ -208,3 +208,7 @@ Describe the revision history of RZ/G Security Module.
 ### 6.1. v1.00
 
 - First release.
+
+### 6.1. v1.01
+
+- TSIP Driver: Fix unalignment access.

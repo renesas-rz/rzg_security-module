@@ -46,7 +46,7 @@ static const func_cmd gs_command_function[CMD_MAX] = {
     cmd_verify_data,
 };
 
-static uint8_t gs_work_addr_sram[WORK_ADR_SRAM_SIZE];
+static uint32_t gs_work_addr_sram[WORK_ADR_SRAM_SIZE/4];
 
 /******************************************************************************
  * Function Name : sec_module
